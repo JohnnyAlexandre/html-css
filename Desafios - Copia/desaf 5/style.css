@@ -1,0 +1,47 @@
+ul {
+    list-style: none; /* Remove o bullet padrão */
+}
+
+li {
+    margin: 10px 0;
+}
+
+li.youtube::before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url('https://img.icons8.com/color/48/youtube-play.png'); /* Ícone do YouTube */
+    background-size: cover;
+    margin-right: 10px;
+}
+
+li.github::before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url('https://img.icons8.com/material-outlined/24/github.png'); /* Ícone do GitHub */
+    background-size: cover;
+    margin-right: 10px;
+}
+
+li.instagram::before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url('https://img.icons8.com/color/48/instagram-new.png'); /* Ícone do Instagram */
+    background-size: cover;
+    margin-right: 10px;
+}
+
+li.twitter::before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url('https://img.icons8.com/color/48/twitter.png'); /* Ícone do Twitter */
+    background-size: cover;
+    margin-right: 10px;
+}
