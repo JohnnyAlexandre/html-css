@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-image: url("https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_960_720.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+
+.link li {
+    display: inline-block;
+    margin: 10px;
+    border-radius: 15px;
+    background-color: red;
+    padding: 10px; 
+    width: 20%;
+    text-align: center;
+}
+
+.link li:hover {
+    background-color: #333;
+    transition: background-color 0.5s ease;
+    cursor: pointer;
+}
+
+.link li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.container h1 {
+    color: white;
+    font-size: 30px;
+    text-shadow: 2px 2px 4px #000000;
+    font-weight: bold;
+}
+
+.container img {
+    margin-top: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+
+.container p {
+    color: white;
+    font-size: 15px;
+    border-radius: 10px;
+    padding: 10px;
+}
